@@ -480,6 +480,9 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .features-item-text {
@@ -500,6 +503,10 @@ img {
 
   .features-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .features-subtitle {
+    align-items: start;
   }
 }
 
@@ -637,7 +644,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .team .container {
-    padding: 0 108px;
+    padding: 0 16px;
+    width: 584px;
   }
 
   .team-list {
@@ -898,7 +906,8 @@ img {
     align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 108px;
+    padding: 0 16px;
+    width: 584px;
   }
 
   .footer-container-logo {
